@@ -37,6 +37,10 @@ langchain-community==0.3.13
 langchain-core==0.3.28
 langchain-openai==0.2.14
 langchain-text-splitters==0.3.4
+langgraph==0.4.3
+langgraph-checkpoint==2.0.25
+langgraph-prebuilt==0.1.8
+langgraph-sdk==0.1.69
 langsmith==0.2.6
 marshmallow==3.23.2
 matplotlib-inline==0.1.7
@@ -46,6 +50,7 @@ nest-asyncio==1.6.0
 numpy==2.2.1
 openai==1.58.1
 orjson==3.10.12
+ormsgpack==1.9.1
 packaging==24.2
 parso==0.8.4
 platformdirs==4.3.6
@@ -81,4 +86,5 @@ urllib3==2.3.0
 wcwidth==0.2.13
 widgetsnbextension==4.0.13
 Wikipedia-API==0.7.1
+xxhash==3.5.0
 yarl==1.18.3
