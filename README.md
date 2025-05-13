@@ -67,11 +67,25 @@ Design intelligent workflows using multiple specialized agents:
 
 ---
 
+### 7. Conversational State Machine with LangGraph [`7-LangGraph-Conversation-StateMachine.ipynb`]
+
+This notebook introduces LangGraph through a **conversation-driven state machine**.
+
+Key highlights:
+
+- Defines a `StateGraph` with typed input/output.
+- Classifies user input as a "question", "exit", or "unknown".
+- Uses conditional edges and callable logic to route the state.
+- Builds a dynamic agent that responds and gracefully exits.
+
+It also includes an interactive chat loop using the compiled graph; a perfect stepping stone toward adaptive, multi-turn LLM agents.
+
+---
+
 ## 🚧 Upcoming Topics
 
 Stay tuned for:
 
-- LangGraph-based control flows
 - LangServe deployment examples
 - Knowledge graphs
 - Production-ready LangChain patterns
